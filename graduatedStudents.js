@@ -95,6 +95,20 @@ const graduatedStudents = (listOfStudents) => {
 
 console.log(graduatedStudents(students));
 
+/** Expected Output:
+ * [
+  'Ankit has graduated and their diploma will be sent to ankit@example.com',
+  'Kayla has not graduated yet, no diploma will be sent',
+  'Charina has graduated and their diploma will be sent to charina@example.com',
+  'Bernard has not graduated yet, no diploma will be sent',
+  'Kevin has not graduated yet, no diploma will be sent',
+  'Hasheem has graduated and their diploma will be sent to hasheem@example.com',
+  'Erwin has graduated and their diploma will be sent to erwin@example.com',
+  'Christopher has graduated and their diploma will be sent to christopher@example.com',
+  'Angela has graduated and their diploma will be sent to angela@example.com'
+]
+ */
+
 /** or below solution can be use without destructuring.
  * 
  * listOfStudents.forEach(student => { 
